@@ -11,11 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://nopanicer.github.io/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://nopanicer.github.io/"
                 />
@@ -45,11 +40,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://nopanicer.github.io/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://nopanicer.github.io/categories/"
                 />
@@ -75,11 +65,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://nopanicer.github.io/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://nopanicer.github.io/post/"
                 />
@@ -96,11 +81,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://nopanicer.github.io/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://nopanicer.github.io/tags/"
                 />
@@ -113,16 +93,6 @@
   </url><url>
     <loc>https://nopanicer.github.io/p/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://nopanicer.github.io/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nopanicer.github.io/p/placeholder-text/"
-                />
   </url><url>
     <loc>https://nopanicer.github.io/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
