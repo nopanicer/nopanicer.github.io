@@ -7,7 +7,52 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>nopanicer</copyright>
-        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Git使用学习</title>
+        <link>https://nopanicer.github.io/p/git/</link>
+        <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/p/git/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>World Models概述</title>
+        <link>https://nopanicer.github.io/p/world-models/</link>
+        <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/p/world-models/</guid>
+        <description>&lt;h2 id=&#34;agi&#34;&gt;AGI
+&lt;/h2&gt;&lt;h2 id=&#34;世界模型是什么&#34;&gt;世界模型是什么
+&lt;/h2&gt;&lt;h2 id=&#34;如果agi实现了那不就是可以通过agi生成游戏世界了&#34;&gt;如果AGI实现了，那不就是可以通过AGI生成游戏世界了
+&lt;/h2&gt;&lt;h2 id=&#34;世界模型需要什么-面对未知得能力&#34;&gt;世界模型需要什么， 面对未知得能力
+&lt;/h2&gt;&lt;h2 id=&#34;jepa原来是这么个东西&#34;&gt;JEPA原来是这么个东西
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Understanding&lt;/li&gt;
+&lt;li&gt;Predicting&lt;/li&gt;
+&lt;li&gt;Planning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;世界需要理解错误能纠错需要自己解决bug&#34;&gt;世界需要理解错误，能纠错，需要自己解决bug
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;世界模型&lt;/strong&gt;是人工智能系统对外部世界的内部表征或模拟。它就像AI的“大脑”中的一个虚拟沙盒，让AI能够理解、预测和推理现实世界的运作方式，包括&lt;strong&gt;物理规律、因果关系和物体运动&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;我们人类在做任何事情之前，都会在脑海中对即将发生的事情进行模拟和预测。比如，一个棒球运动员能够击中告诉飞来的棒球，是因为他的大脑能够快速预测棒球的飞行轨迹，并在潜意识中做出反应。这种预测能力，就是基于他对世界的内部模型。&lt;/p&gt;
+&lt;p&gt;一个世界模型通常包含以下核心能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;内部表征（Internal Representation）&lt;/strong&gt; : 将高维的原始数据编码为低维、简洁的潜在状态，形成对世界的抽象和概括。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来预测（Future Prediction）&lt;/strong&gt;： 基于当前状态和采取的行动，预测未来可能发生的状态变化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;因果推理（Causal Reasoning）&lt;/strong&gt;： 理解“如果……会发生什么”的问题，即能够进行反事实推理。&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GXfCYYEw6/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=86c342ca5a44bf015c4bf3934ae1b354&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.bilibili.com/video/BV1GXfCYYEw6/?spm_id_from=333.337.search-card.all.click&amp;vd_source=86c342ca5a44bf015c4bf3934ae1b354&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>AI编年简史</title>
         <link>https://nopanicer.github.io/p/ai-dev/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>

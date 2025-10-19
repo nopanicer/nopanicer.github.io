@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="记录AI发展轨迹">
-<title>AI编年简史</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="AGI 世界模型是什么 如果AGI实现了，那不就是可以通过AGI生成游戏世界了 世界模型需要什么， 面对未知得能力 JEPA原来是这么个东西 Understanding Predicting Planning 世界需要理解错误，能纠错，需要自己解决bug 世界模型是人工智能系统对外部世界的内部表征或模拟。它就像AI的“大脑”中的一个虚拟沙盒，让AI能够理解、预测和推理现实世界的运作方式，包括物理规律、因果关系和物体运动。\n我们人类在做任何事情之前，都会在脑海中对即将发生的事情进行模拟和预测。比如，一个棒球运动员能够击中告诉飞来的棒球，是因为他的大脑能够快速预测棒球的飞行轨迹，并在潜意识中做出反应。这种预测能力，就是基于他对世界的内部模型。\n一个世界模型通常包含以下核心能力：\n内部表征（Internal Representation） : 将高维的原始数据编码为低维、简洁的潜在状态，形成对世界的抽象和概括。 未来预测（Future Prediction）： 基于当前状态和采取的行动，预测未来可能发生的状态变化。 因果推理（Causal Reasoning）： 理解“如果……会发生什么”的问题，即能够进行反事实推理。1 参考文献 https://www.bilibili.com/video/BV1GXfCYYEw6/?spm_id_from=333.337.search-card.all.click&vd_source=86c342ca5a44bf015c4bf3934ae1b354&#160;&#x21a9;&#xfe0e;\n">
+<title>World Models概述</title>
 
-<link rel='canonical' href='https://nopanicer.github.io/p/ai-dev/'>
+<link rel='canonical' href='https://nopanicer.github.io/p/world-models/'>
 
-<link rel="stylesheet" href="/scss/style.min.6a692fd055deae459f2a9767f57f3855ba80cafd5041317f24f7360f6ca47cdf.css"><meta property='og:title' content="AI编年简史">
-<meta property='og:description' content="记录AI发展轨迹">
-<meta property='og:url' content='https://nopanicer.github.io/p/ai-dev/'>
+<link rel="stylesheet" href="/scss/style.min.6a692fd055deae459f2a9767f57f3855ba80cafd5041317f24f7360f6ca47cdf.css"><meta property='og:title' content="World Models概述">
+<meta property='og:description' content="AGI 世界模型是什么 如果AGI实现了，那不就是可以通过AGI生成游戏世界了 世界模型需要什么， 面对未知得能力 JEPA原来是这么个东西 Understanding Predicting Planning 世界需要理解错误，能纠错，需要自己解决bug 世界模型是人工智能系统对外部世界的内部表征或模拟。它就像AI的“大脑”中的一个虚拟沙盒，让AI能够理解、预测和推理现实世界的运作方式，包括物理规律、因果关系和物体运动。\n我们人类在做任何事情之前，都会在脑海中对即将发生的事情进行模拟和预测。比如，一个棒球运动员能够击中告诉飞来的棒球，是因为他的大脑能够快速预测棒球的飞行轨迹，并在潜意识中做出反应。这种预测能力，就是基于他对世界的内部模型。\n一个世界模型通常包含以下核心能力：\n内部表征（Internal Representation） : 将高维的原始数据编码为低维、简洁的潜在状态，形成对世界的抽象和概括。 未来预测（Future Prediction）： 基于当前状态和采取的行动，预测未来可能发生的状态变化。 因果推理（Causal Reasoning）： 理解“如果……会发生什么”的问题，即能够进行反事实推理。1 参考文献 https://www.bilibili.com/video/BV1GXfCYYEw6/?spm_id_from=333.337.search-card.all.click&vd_source=86c342ca5a44bf015c4bf3934ae1b354&#160;&#x21a9;&#xfe0e;\n">
+<meta property='og:url' content='https://nopanicer.github.io/p/world-models/'>
 <meta property='og:site_name' content='nopanicer'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-10-17T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-17T00:00:00&#43;00:00'/><meta property='og:image' content='https://nopanicer.github.io/p/ai-dev/AI.jpg' />
-<meta name="twitter:title" content="AI编年简史">
-<meta name="twitter:description" content="记录AI发展轨迹"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://nopanicer.github.io/p/ai-dev/AI.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-10-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-19T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="World Models概述">
+<meta name="twitter:description" content="AGI 世界模型是什么 如果AGI实现了，那不就是可以通过AGI生成游戏世界了 世界模型需要什么， 面对未知得能力 JEPA原来是这么个东西 Understanding Predicting Planning 世界需要理解错误，能纠错，需要自己解决bug 世界模型是人工智能系统对外部世界的内部表征或模拟。它就像AI的“大脑”中的一个虚拟沙盒，让AI能够理解、预测和推理现实世界的运作方式，包括物理规律、因果关系和物体运动。\n我们人类在做任何事情之前，都会在脑海中对即将发生的事情进行模拟和预测。比如，一个棒球运动员能够击中告诉飞来的棒球，是因为他的大脑能够快速预测棒球的飞行轨迹，并在潜意识中做出反应。这种预测能力，就是基于他对世界的内部模型。\n一个世界模型通常包含以下核心能力：\n内部表征（Internal Representation） : 将高维的原始数据编码为低维、简洁的潜在状态，形成对世界的抽象和概括。 未来预测（Future Prediction）： 基于当前状态和采取的行动，预测未来可能发生的状态变化。 因果推理（Causal Reasoning）： 理解“如果……会发生什么”的问题，即能够进行反事实推理。1 参考文献 https://www.bilibili.com/video/BV1GXfCYYEw6/?spm_id_from=333.337.search-card.all.click&vd_source=86c342ca5a44bf015c4bf3934ae1b354&#160;&#x21a9;&#xfe0e;\n">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -240,23 +239,48 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#agi">AGI</a></li>
+    <li><a href="#世界模型是什么">世界模型是什么</a></li>
+    <li><a href="#如果agi实现了那不就是可以通过agi生成游戏世界了">如果AGI实现了，那不就是可以通过AGI生成游戏世界了</a></li>
+    <li><a href="#世界模型需要什么-面对未知得能力">世界模型需要什么， 面对未知得能力</a></li>
+    <li><a href="#jepa原来是这么个东西">JEPA原来是这么个东西</a></li>
+    <li><a href="#世界需要理解错误能纠错需要自己解决bug">世界需要理解错误，能纠错，需要自己解决bug</a></li>
+    <li><a href="#参考文献">参考文献</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
-    <article class="has-image main-article">
+    <article class="main-article">
     <header class="article-header">
-        <div class="article-image">
-            <a href="/p/ai-dev/">
-                <img src="/p/ai-dev/AI_hu_d1a56efd107a3472.jpg"
-                        srcset="/p/ai-dev/AI_hu_d1a56efd107a3472.jpg 800w, /p/ai-dev/AI_hu_c79443f4def870b8.jpg 1600w"
-                        width="800" 
-                        height="458" 
-                        loading="lazy"
-                        alt="Featured image of post AI编年简史" />
-                
-            </a>
-        </div>
-    
 
     <div class="article-details">
     
@@ -266,18 +290,18 @@
                 AI
             </a>
         
+            <a href="/categories/%E5%AD%A6%E4%B9%A0/" >
+                学习
+            </a>
+        
     </header>
     
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/ai-dev/">AI编年简史</a>
+            <a href="/p/world-models/">World Models概述</a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            记录AI发展轨迹
-        </h3>
         
     </div>
 
@@ -297,7 +321,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-10-17</time>
+                <time class="article-time--published">2025-10-19</time>
             </div>
         
 
@@ -313,7 +337,36 @@
     <section class="article-content">
     
     
-    
+    <h2 id="agi">AGI
+</h2><h2 id="世界模型是什么">世界模型是什么
+</h2><h2 id="如果agi实现了那不就是可以通过agi生成游戏世界了">如果AGI实现了，那不就是可以通过AGI生成游戏世界了
+</h2><h2 id="世界模型需要什么-面对未知得能力">世界模型需要什么， 面对未知得能力
+</h2><h2 id="jepa原来是这么个东西">JEPA原来是这么个东西
+</h2><ul>
+<li>Understanding</li>
+<li>Predicting</li>
+<li>Planning</li>
+</ul>
+<h2 id="世界需要理解错误能纠错需要自己解决bug">世界需要理解错误，能纠错，需要自己解决bug
+</h2><p><strong>世界模型</strong>是人工智能系统对外部世界的内部表征或模拟。它就像AI的“大脑”中的一个虚拟沙盒，让AI能够理解、预测和推理现实世界的运作方式，包括<strong>物理规律、因果关系和物体运动</strong>。</p>
+<p>我们人类在做任何事情之前，都会在脑海中对即将发生的事情进行模拟和预测。比如，一个棒球运动员能够击中告诉飞来的棒球，是因为他的大脑能够快速预测棒球的飞行轨迹，并在潜意识中做出反应。这种预测能力，就是基于他对世界的内部模型。</p>
+<p>一个世界模型通常包含以下核心能力：</p>
+<ul>
+<li><strong>内部表征（Internal Representation）</strong> : 将高维的原始数据编码为低维、简洁的潜在状态，形成对世界的抽象和概括。</li>
+<li><strong>未来预测（Future Prediction）</strong>： 基于当前状态和采取的行动，预测未来可能发生的状态变化。</li>
+<li><strong>因果推理（Causal Reasoning）</strong>： 理解“如果……会发生什么”的问题，即能够进行反事实推理。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ul>
+<h2 id="参考文献">参考文献
+</h2><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a class="link" href="https://www.bilibili.com/video/BV1GXfCYYEw6/?spm_id_from=333.337.search-card.all.click&amp;vd_source=86c342ca5a44bf015c4bf3934ae1b354"  target="_blank" rel="noopener"
+    >https://www.bilibili.com/video/BV1GXfCYYEw6/?spm_id_from=333.337.search-card.all.click&vd_source=86c342ca5a44bf015c4bf3934ae1b354</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
 </section>
 
 
@@ -363,12 +416,36 @@
             
                 
 <article class="">
-    <a href="/p/world-models/">
+    <a href="/p/git/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">World Models概述</h2>
+            <h2 class="article-title">Git使用学习</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/ai-dev/">
+        
+        
+            <div class="article-image">
+                <img src="/p/ai-dev/AI.68de277bd15a595d905dd37a4178ff41_hu_27ac0b9b55c42539.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post AI编年简史"
+                        data-key="AI-dev" 
+                        data-hash="md5-aN4ne9FaWV2QXdN6QXj/QQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AI编年简史</h2>
         </div>
     </a>
 </article>

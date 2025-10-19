@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>AI on nopanicer</title>
-        <link>https://nopanicer.github.io/categories/ai/</link>
-        <description>Recent content in AI on nopanicer</description>
+        <title>学习 on nopanicer</title>
+        <link>https://nopanicer.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+        <description>Recent content in 学习 on nopanicer</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>nopanicer</copyright>
-        <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Git使用学习</title>
+        <link>https://nopanicer.github.io/p/git/</link>
+        <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/p/git/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>World Models概述</title>
         <link>https://nopanicer.github.io/p/world-models/</link>
         <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
@@ -43,14 +51,6 @@
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        </item>
-        <item>
-        <title>AI编年简史</title>
-        <link>https://nopanicer.github.io/p/ai-dev/</link>
-        <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://nopanicer.github.io/p/ai-dev/</guid>
-        <description>&lt;img src="https://nopanicer.github.io/p/ai-dev/AI.jpg" alt="Featured image of post AI编年简史" /&gt;</description>
         </item>
         
     </channel>
