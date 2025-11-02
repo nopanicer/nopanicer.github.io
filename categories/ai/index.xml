@@ -7,7 +7,22 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>nopanicer</copyright>
-        <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>人工智能之旅</title>
+        <link>https://nopanicer.github.io/p/ai-dev/</link>
+        <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/p/ai-dev/</guid>
+        <description>&lt;img src="https://nopanicer.github.io/p/ai-dev/AI.jpg" alt="Featured image of post 人工智能之旅" /&gt;&lt;p&gt;人工智能，字面意思就是人类生成的智能，也就是人类对智能对脑中智能概念的模仿，所以要回答什么是人工智能，就必须回答什么是智能。依据智能定义的不同，人工智能的实现形式也会稍加区别。&lt;/p&gt;
+&lt;h2 id=&#34;什么是智能-哲学&#34;&gt;什么是智能-哲学
+&lt;/h2&gt;&lt;h2 id=&#34;如何定义智能-逻辑学&#34;&gt;如何定义智能-逻辑学
+&lt;/h2&gt;&lt;h2 id=&#34;如何产生智能-脑科学&#34;&gt;如何产生智能-脑科学
+&lt;/h2&gt;&lt;h2 id=&#34;如何运转智能-经济学&#34;&gt;如何运转智能-经济学
+&lt;/h2&gt;&lt;h2 id=&#34;如何量化智能-统计学&#34;&gt;如何量化智能-统计学
+&lt;/h2&gt;&lt;h2 id=&#34;如何模拟智能-计算机科学&#34;&gt;如何模拟智能-计算机科学
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>World Models概述</title>
         <link>https://nopanicer.github.io/p/world-models/</link>
         <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
@@ -43,14 +58,6 @@
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        </item>
-        <item>
-        <title>AI编年简史</title>
-        <link>https://nopanicer.github.io/p/ai-dev/</link>
-        <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://nopanicer.github.io/p/ai-dev/</guid>
-        <description>&lt;img src="https://nopanicer.github.io/p/ai-dev/AI.jpg" alt="Featured image of post AI编年简史" /&gt;</description>
         </item>
         
     </channel>
