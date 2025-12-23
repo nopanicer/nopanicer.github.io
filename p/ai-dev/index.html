@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="当我们谈论人工智能, 我们在谈论什么">
-<title>人工智能之旅</title>
+<title>强化学习</title>
 
 <link rel='canonical' href='https://nopanicer.github.io/p/ai-dev/'>
 
@@ -10,7 +10,7 @@
 <meta property='og:description' content="当我们谈论人工智能, 我们在谈论什么">
 <meta property='og:url' content='https://nopanicer.github.io/p/ai-dev/'>
 <meta property='og:site_name' content='nopanicer'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-11-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-11-02T00:00:00&#43;00:00'/><meta property='og:image' content='https://nopanicer.github.io/p/ai-dev/AI.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-12-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-12-18T00:00:00&#43;00:00'/><meta property='og:image' content='https://nopanicer.github.io/p/ai-dev/AI.jpg' />
 <meta name="twitter:title" content="人工智能之旅">
 <meta name="twitter:description" content="当我们谈论人工智能, 我们在谈论什么"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://nopanicer.github.io/p/ai-dev/AI.jpg' />
@@ -59,7 +59,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu_101026db92bd9181.jpg" width="300"
+                        <img src="/img/avatar_hu_b264952cdddaf222.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -262,13 +262,17 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#正确的思考正确的行为理性感性">正确的思考/正确的行为，理性/感性</a></li>
-    <li><a href="#什么是智能-哲学">什么是智能-哲学</a></li>
-    <li><a href="#如何定义智能-逻辑学">如何定义智能-逻辑学</a></li>
-    <li><a href="#如何产生智能-脑科学">如何产生智能-脑科学</a></li>
-    <li><a href="#如何运转智能-经济学">如何运转智能-经济学</a></li>
-    <li><a href="#如何量化智能-统计学">如何量化智能-统计学</a></li>
-    <li><a href="#如何模拟智能-计算机科学">如何模拟智能-计算机科学</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#chapter-1-basic-concpets">Chapter 1: Basic Concpets</a></li>
+    <li><a href="#chapter-2-bellman-equation">Chapter 2: Bellman Equation</a></li>
+    <li><a href="#chapter-3-bellman-optimality-equation">Chapter 3: Bellman Optimality Equation</a></li>
+    <li><a href="#chapter-4-value-iteration--policy-iteration">Chapter 4: Value Iteration &amp; Policy Iteration</a></li>
+    <li><a href="#chapter-5-monte-cario-learning">Chapter 5: Monte Cario Learning</a></li>
+    <li><a href="#chapter-6-stochastic-approximation">Chapter 6: Stochastic Approximation</a></li>
+    <li><a href="#chapter-7-temporal-difference-learning">Chapter 7: Temporal-Difference Learning</a></li>
+    <li><a href="#chapter-8-value-function-approximation">Chapter 8: Value Function Approximation</a></li>
+    <li><a href="#chapter-9-policy-gradient-methods">Chapter 9: Policy Gradient Methods</a></li>
+    <li><a href="#chapter-10-actor-critic-methods">Chapter 10: Actor-Critic Methods</a></li>
   </ol>
 </nav>
         </div>
@@ -284,12 +288,12 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/p/ai-dev/">
-                <img src="/p/ai-dev/AI_hu_d1a56efd107a3472.jpg"
-                        srcset="/p/ai-dev/AI_hu_d1a56efd107a3472.jpg 800w, /p/ai-dev/AI_hu_c79443f4def870b8.jpg 1600w"
+                <img src="/p/ai-dev/image_hu_b33a6eb6a8a18e5c.png"
+                        srcset="/p/ai-dev/image_hu_b33a6eb6a8a18e5c.png 800w, /p/ai-dev/image_hu_2b046da68f8fcdbb.png 1600w"
                         width="800" 
-                        height="458" 
+                        height="675" 
                         loading="lazy"
-                        alt="Featured image of post 人工智能之旅" />
+                        alt="Featured image of post 强化学习" />
                 
             </a>
         </div>
@@ -299,16 +303,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/ai/" >
-                AI
-            </a>
-        
-            <a href="/categories/%E5%8F%8D%E6%80%9D/" >
-                反思
-            </a>
-        
-            <a href="/categories/%E5%8E%86%E5%8F%B2/" >
-                历史
+            <a href="/categories/rl/" >
+                RL
             </a>
         
     </header>
@@ -316,12 +312,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/ai-dev/">人工智能之旅</a>
+            <a href="/p/ai-dev/">强化学习</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            当我们谈论人工智能, 我们在谈论什么
+            赵世钰老师 b 站视频笔记
         </h3>
         
     </div>
@@ -342,7 +338,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-11-02</time>
+                <time class="article-time--published">2025-12-18</time>
             </div>
         
 
@@ -358,17 +354,168 @@
     <section class="article-content">
     
     
-    <p>智能体(intelligent agent)的概念是贯穿整本书的主题思想。我们将人工智能定义为对从  环境中接收感知并执行动作的智能体的研究。每个这样的智能体都要实现一个将感知序列映射  为动作的函数,我们介绍了表示这些函数的不同方法,如反应型智能体、实时规划器、决策论  系统和深度学习系统。我们强调,学习既是构造良好系统的方法,也是将设计者的影响范围扩  展到未知环境的方法。我们没有把机器人学和视觉看作独立定义的问题,而是将其看作实现目  标的服务。我们强调任务环境在确定合适的智能体设计中的重要性</p>
-<p>人工智能，字面意思就是人类生成的智能，也就是人类对智能对脑中智能概念的模仿，所以要回答什么是人工智能，就必须回答什么是智能。依据智能定义的不同，人工智能的实现形式也会稍加区别。</p>
-<h2 id="正确的思考正确的行为理性感性">正确的思考/正确的行为，理性/感性
-</h2><p>有些根据对人类行为的复刻来定义智能,而另一些更喜欢用“理性”  (rationality)来抽象正式地定义智能,直观上的理解是做“正确的事情”。智能主题的本身也各  不相同:一些人将智能视为内部思维过程和推理的属性,而另一些人则关注智能的外部特征,  也就是智能行为。</p>
-<h2 id="什么是智能-哲学">什么是智能-哲学
-</h2><h2 id="如何定义智能-逻辑学">如何定义智能-逻辑学
-</h2><h2 id="如何产生智能-脑科学">如何产生智能-脑科学
-</h2><h2 id="如何运转智能-经济学">如何运转智能-经济学
-</h2><h2 id="如何量化智能-统计学">如何量化智能-统计学
-</h2><h2 id="如何模拟智能-计算机科学">如何模拟智能-计算机科学
-</h2>
+    <blockquote>
+<p>强化学习的终极目标是求解一个最优策略.</p>
+</blockquote>
+<h2 id="overview">Overview
+</h2><ul>
+<li>Not just the map of this course, but also for RL foundations</li>
+<li>Fundamental tools + Algorithms and methods</li>
+<li>Importance of different parts</li>
+</ul>
+<h2 id="chapter-1-basic-concpets">Chapter 1: Basic Concpets
+</h2><ul>
+<li>Concepts: state, action, reward, return, episode, policy</li>
+<li>Grid-world examples</li>
+<li>Markov decision process (MDP)</li>
+<li>Fundamental  concepts, widely used later</li>
+</ul>
+<h2 id="chapter-2-bellman-equation">Chapter 2: Bellman Equation
+</h2><ul>
+<li>One concept. State value
+$$
+v_{\pi}(s) = \mathbb{E}[G_t|S_t=s]
+$$</li>
+<li>One tool: Bellman equation
+$$
+v_{\pi} = r_{\pi} + \gamma P_{\pi}v_{\pi}
+$$</li>
+<li>Policy evaluation, widely used later</li>
+</ul>
+<h2 id="chapter-3-bellman-optimality-equation">Chapter 3: Bellman Optimality Equation
+</h2><ul>
+<li>
+<p>A special Bellman equation</p>
+</li>
+<li>
+<p>Two concepts: optimal policy $\pi^*$ &amp; optimal state value</p>
+</li>
+<li>
+<p>One tool: Bellman optimality equation
+</p>
+$$
+    v = max_{\pi}(r_{\pi} + \gamma P_{\pi}v) = f(v)
+    $$<ol>
+<li>Fixed_point theorem</li>
+<li>Fundamental problems</li>
+<li>An algorithm solving the equation</li>
+</ol>
+</li>
+<li>
+<p>Optimality, widely used later</p>
+</li>
+</ul>
+<h2 id="chapter-4-value-iteration--policy-iteration">Chapter 4: Value Iteration &amp; Policy Iteration
+</h2><ul>
+<li>First algorithms for optimal policies</li>
+<li>Three algorithms:
+<ol>
+<li>Value iteration(VI)</li>
+<li>Policy iteration(PI)</li>
+<li>Truncated policy iteration (general case)</li>
+</ol>
+</li>
+<li>Policy update and value update, widely used later</li>
+<li>Need the environment model</li>
+</ul>
+<h2 id="chapter-5-monte-cario-learning">Chapter 5: Monte Cario Learning
+</h2><ul>
+<li>Gap: how to do model-free learning?</li>
+<li>Mean estimation with sampling data
+$$
+\mathbb{E}[X] \approx \bar{x} = \frac{1}{n} \sum_{i = 1}^n x_i
+$$</li>
+<li>First model-free RL algorthims</li>
+<li>Algorithms:
+<ol>
+<li>MC Basic</li>
+<li>MC Exploring Starts</li>
+<li>MC $\epsilon$-greedy</li>
+</ol>
+</li>
+</ul>
+<h2 id="chapter-6-stochastic-approximation">Chapter 6: Stochastic Approximation
+</h2><ul>
+<li>Gap: from non-incremental to incremental</li>
+<li>Mean estimation</li>
+<li>Algorithms:
+<ol>
+<li>Robbins-Monro(RM) algorithm</li>
+<li>Stochastic gradient descent(SGD)</li>
+<li>SGD, BGD, MBGD</li>
+</ol>
+</li>
+<li>Incremental manner and BGD, widely used later</li>
+</ul>
+<h2 id="chapter-7-temporal-difference-learning">Chapter 7: Temporal-Difference Learning
+</h2><ul>
+<li>Classic RL algorithms</li>
+<li>Algorithms:
+<ol>
+<li>TD learning of state values</li>
+<li>Sarsa: TD learning of action values</li>
+<li>Q-learning: TD learning of optimal action values (off-policy)</li>
+<li>Unified point of view</li>
+</ol>
+</li>
+</ul>
+<h2 id="chapter-8-value-function-approximation">Chapter 8: Value Function Approximation
+</h2><ul>
+<li>Gap: tabular representation to function representation</li>
+<li>Algorithms:
+<ol>
+<li>State value estimation with value function approximation(VFA):
+$$
+    min_{w} J(w) = \mathbb{E}[v_{\pi}(S) - \hat{v}(S,w)]
+    $$</li>
+<li>Sarsa with VFA</li>
+<li>Q-learning with VFA</li>
+<li>Deep Q-learning</li>
+</ol>
+</li>
+<li>Neural networks come into RL</li>
+</ul>
+<h2 id="chapter-9-policy-gradient-methods">Chapter 9: Policy Gradient Methods
+</h2><ul>
+<li>Gap: from value-based to policy-based</li>
+<li>Contents:
+<ol>
+<li>Metrics to define optimal policies:
+$$
+    J(\theta) = \bar{v}_{\pi},\bar{r}_{\pi}
+    $$</li>
+<li>Policy gradient:
+$$
+    \Delta J(\theta) = \mathbb{E}[\Delta_{\theta} ln {\pi}(A|S,\theta)q_{\pi}(S,A)]
+    $$</li>
+<li>Gradient-ascent algorithm(REINFORCE)
+$$
+    \theta_{t+1} = \theta_{t} + \alpha \Delta_{\theta} ln \pi(a_{t}|s_t, \theta_t)q_t(s_t,a_t) 
+    $$</li>
+</ol>
+</li>
+</ul>
+<h2 id="chapter-10-actor-critic-methods">Chapter 10: Actor-Critic Methods
+</h2><ul>
+<li>Gap: policy-based + value-baesd
+$$
+\theta_{t+1} = \theta_{t} + \alpha \Delta_{\theta} ln \pi(a_{t}|s_t, \theta_t)q_t(s_t,a_t) 
+$$</li>
+<li>Algorithms:
+<ol>
+<li>The simplest actor-critc(QAC)</li>
+<li>Advantage actor-critic(A2C)</li>
+<li>OFF-policy actor-critic</li>
+</ol>
+<ul>
+<li>Importance sampling</li>
+</ul>
+<ol start="4">
+<li>Deterministic actor-critic(DPG)</li>
+</ol>
+</li>
+</ul>
+
 </section>
 
 
@@ -410,28 +557,6 @@
     
 
     
-
-<aside class="related-content--wrapper">
-    <h2 class="section-title">Related content</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/p/world-models/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">World Models</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
 
      
     

@@ -5,9 +5,33 @@
         <link>https://nopanicer.github.io/categories/</link>
         <description>Recent content in Categories on nopanicer</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
+        <language>en-us</language>
         <copyright>nopanicer</copyright>
-        <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>RL</title>
+        <link>https://nopanicer.github.io/categories/rl/</link>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/categories/rl/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Learning</title>
+        <link>https://nopanicer.github.io/categories/learning/</link>
+        <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/categories/learning/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Statistic</title>
+        <link>https://nopanicer.github.io/categories/statistic/</link>
+        <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/categories/statistic/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>AI</title>
         <link>https://nopanicer.github.io/categories/ai/</link>
         <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>

@@ -5,9 +5,187 @@
         <link>https://nopanicer.github.io/post/</link>
         <description>Recent content in Posts on nopanicer</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
+        <language>en-us</language>
         <copyright>nopanicer</copyright>
-        <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>强化学习</title>
+        <link>https://nopanicer.github.io/p/ai-dev/</link>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/p/ai-dev/</guid>
+        <description>&lt;img src="https://nopanicer.github.io/p/ai-dev/image.png" alt="Featured image of post 强化学习" /&gt;&lt;blockquote&gt;
+&lt;p&gt;强化学习的终极目标是求解一个最优策略.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Not just the map of this course, but also for RL foundations&lt;/li&gt;
+&lt;li&gt;Fundamental tools + Algorithms and methods&lt;/li&gt;
+&lt;li&gt;Importance of different parts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-1-basic-concpets&#34;&gt;Chapter 1: Basic Concpets
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Concepts: state, action, reward, return, episode, policy&lt;/li&gt;
+&lt;li&gt;Grid-world examples&lt;/li&gt;
+&lt;li&gt;Markov decision process (MDP)&lt;/li&gt;
+&lt;li&gt;Fundamental  concepts, widely used later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-2-bellman-equation&#34;&gt;Chapter 2: Bellman Equation
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;One concept. State value
+$$
+v_{\pi}(s) = \mathbb{E}[G_t|S_t=s]
+$$&lt;/li&gt;
+&lt;li&gt;One tool: Bellman equation
+$$
+v_{\pi} = r_{\pi} + \gamma P_{\pi}v_{\pi}
+$$&lt;/li&gt;
+&lt;li&gt;Policy evaluation, widely used later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-3-bellman-optimality-equation&#34;&gt;Chapter 3: Bellman Optimality Equation
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A special Bellman equation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Two concepts: optimal policy $\pi^*$ &amp;amp; optimal state value&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One tool: Bellman optimality equation
+&lt;/p&gt;
+$$
+    v = max_{\pi}(r_{\pi} + \gamma P_{\pi}v) = f(v)
+    $$&lt;ol&gt;
+&lt;li&gt;Fixed_point theorem&lt;/li&gt;
+&lt;li&gt;Fundamental problems&lt;/li&gt;
+&lt;li&gt;An algorithm solving the equation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Optimality, widely used later&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-4-value-iteration--policy-iteration&#34;&gt;Chapter 4: Value Iteration &amp;amp; Policy Iteration
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;First algorithms for optimal policies&lt;/li&gt;
+&lt;li&gt;Three algorithms:
+&lt;ol&gt;
+&lt;li&gt;Value iteration(VI)&lt;/li&gt;
+&lt;li&gt;Policy iteration(PI)&lt;/li&gt;
+&lt;li&gt;Truncated policy iteration (general case)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Policy update and value update, widely used later&lt;/li&gt;
+&lt;li&gt;Need the environment model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-5-monte-cario-learning&#34;&gt;Chapter 5: Monte Cario Learning
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Gap: how to do model-free learning?&lt;/li&gt;
+&lt;li&gt;Mean estimation with sampling data
+$$
+\mathbb{E}[X] \approx \bar{x} = \frac{1}{n} \sum_{i = 1}^n x_i
+$$&lt;/li&gt;
+&lt;li&gt;First model-free RL algorthims&lt;/li&gt;
+&lt;li&gt;Algorithms:
+&lt;ol&gt;
+&lt;li&gt;MC Basic&lt;/li&gt;
+&lt;li&gt;MC Exploring Starts&lt;/li&gt;
+&lt;li&gt;MC $\epsilon$-greedy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-6-stochastic-approximation&#34;&gt;Chapter 6: Stochastic Approximation
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Gap: from non-incremental to incremental&lt;/li&gt;
+&lt;li&gt;Mean estimation&lt;/li&gt;
+&lt;li&gt;Algorithms:
+&lt;ol&gt;
+&lt;li&gt;Robbins-Monro(RM) algorithm&lt;/li&gt;
+&lt;li&gt;Stochastic gradient descent(SGD)&lt;/li&gt;
+&lt;li&gt;SGD, BGD, MBGD&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Incremental manner and BGD, widely used later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-7-temporal-difference-learning&#34;&gt;Chapter 7: Temporal-Difference Learning
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Classic RL algorithms&lt;/li&gt;
+&lt;li&gt;Algorithms:
+&lt;ol&gt;
+&lt;li&gt;TD learning of state values&lt;/li&gt;
+&lt;li&gt;Sarsa: TD learning of action values&lt;/li&gt;
+&lt;li&gt;Q-learning: TD learning of optimal action values (off-policy)&lt;/li&gt;
+&lt;li&gt;Unified point of view&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-8-value-function-approximation&#34;&gt;Chapter 8: Value Function Approximation
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Gap: tabular representation to function representation&lt;/li&gt;
+&lt;li&gt;Algorithms:
+&lt;ol&gt;
+&lt;li&gt;State value estimation with value function approximation(VFA):
+$$
+    min_{w} J(w) = \mathbb{E}[v_{\pi}(S) - \hat{v}(S,w)]
+    $$&lt;/li&gt;
+&lt;li&gt;Sarsa with VFA&lt;/li&gt;
+&lt;li&gt;Q-learning with VFA&lt;/li&gt;
+&lt;li&gt;Deep Q-learning&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Neural networks come into RL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-9-policy-gradient-methods&#34;&gt;Chapter 9: Policy Gradient Methods
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Gap: from value-based to policy-based&lt;/li&gt;
+&lt;li&gt;Contents:
+&lt;ol&gt;
+&lt;li&gt;Metrics to define optimal policies:
+$$
+    J(\theta) = \bar{v}_{\pi},\bar{r}_{\pi}
+    $$&lt;/li&gt;
+&lt;li&gt;Policy gradient:
+$$
+    \Delta J(\theta) = \mathbb{E}[\Delta_{\theta} ln {\pi}(A|S,\theta)q_{\pi}(S,A)]
+    $$&lt;/li&gt;
+&lt;li&gt;Gradient-ascent algorithm(REINFORCE)
+$$
+    \theta_{t+1} = \theta_{t} + \alpha \Delta_{\theta} ln \pi(a_{t}|s_t, \theta_t)q_t(s_t,a_t) 
+    $$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-10-actor-critic-methods&#34;&gt;Chapter 10: Actor-Critic Methods
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Gap: policy-based + value-baesd
+$$
+\theta_{t+1} = \theta_{t} + \alpha \Delta_{\theta} ln \pi(a_{t}|s_t, \theta_t)q_t(s_t,a_t) 
+$$&lt;/li&gt;
+&lt;li&gt;Algorithms:
+&lt;ol&gt;
+&lt;li&gt;The simplest actor-critc(QAC)&lt;/li&gt;
+&lt;li&gt;Advantage actor-critic(A2C)&lt;/li&gt;
+&lt;li&gt;OFF-policy actor-critic&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Importance sampling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Deterministic actor-critic(DPG)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>hugo上手指南</title>
+        <link>https://nopanicer.github.io/p/statistic-blog/</link>
+        <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/p/statistic-blog/</guid>
+        <description>&lt;img src="https://nopanicer.github.io/images/statistic.png" alt="Featured image of post hugo上手指南" /&gt;&lt;h2 id=&#34;机器学习统计基础&#34;&gt;机器学习统计基础
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>人工智能之旅</title>
         <link>https://nopanicer.github.io/p/ai-dev/</link>
         <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
@@ -136,7 +314,7 @@ Minskey 等人通过构筑 GTP 等成果实现了自动推理的机器，这种�
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://nopanicer.github.io/p/hugo-blog/cat-6838844_1280.jpg&#34;
 	width=&#34;853&#34;
 	height=&#34;853&#34;
-	srcset=&#34;https://nopanicer.github.io/p/hugo-blog/cat-6838844_1280_hu_6f77d1e7fa1df305.jpg 480w, https://nopanicer.github.io/p/hugo-blog/cat-6838844_1280_hu_d6314c3d74d342b2.jpg 1024w&#34;
+	srcset=&#34;https://nopanicer.github.io/p/hugo-blog/cat-6838844_1280_hu_adcd4bf31e497961.jpg 480w, https://nopanicer.github.io/p/hugo-blog/cat-6838844_1280_hu_f2fb299f7a70b5ca.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Little Cat&#34;
