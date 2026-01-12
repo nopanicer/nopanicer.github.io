@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>nopanicer</copyright>
-        <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nopanicer.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Learn</title>
+        <link>https://nopanicer.github.io/categories/learn/</link>
+        <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://nopanicer.github.io/categories/learn/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>RL</title>
         <link>https://nopanicer.github.io/categories/rl/</link>
         <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
